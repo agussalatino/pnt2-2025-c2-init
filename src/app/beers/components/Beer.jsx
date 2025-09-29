@@ -23,7 +23,7 @@ export default function Beer({beer}){
 
     const handleBuy = () => {
         setMessage(`Has comprado ${quantity} unidades de ${beer.name}`);
-        setTimeout(() => setMessage(''), 3000);        
+        setTimeout(() => setMessage(''), 4000);        
     }
 
     const toggleLike = () => {  
