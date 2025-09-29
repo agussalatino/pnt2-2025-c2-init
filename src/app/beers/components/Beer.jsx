@@ -19,6 +19,7 @@ export default function Beer({beer}){
     // validar que no pueda comprar 0 unidades.
 
     // TODO mostrar la cantidad de likes
+    //prueba
 
     const handleBuy = () => {
         setMessage(`Has comprado ${quantity} unidades de ${beer.name}`);
